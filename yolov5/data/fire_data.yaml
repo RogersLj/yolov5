@@ -1,0 +1,9 @@
+train: ../Fire_Dataset/images/train/ 
+val:  ../Fire_Dataset/images/val/
+test: ../Fire_Dataset/images/test/
+
+# number of classes
+nc: 1
+
+# class names
+names: ["fire"]

@@ -307,3 +307,5 @@ python train.py --img 640 --cfg yolov5s.yaml --hyp hyp.scratch-low.yaml --batch 
 
 
 
+# 模型预测
+python detect.py --source ../Fire_DataSet/images/test/ --weights runs/train/fire_det4/weights/best.pt --conf 0.25 --name fire_det

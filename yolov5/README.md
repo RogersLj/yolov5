@@ -305,7 +305,7 @@ models/yolov5s.yaml
 
 python train.py --img 640 --cfg yolov5s.yaml --hyp hyp.scratch-low.yaml --batch 32 --epochs 100 --data fire_data.yaml --weights yolov5s.pt --workers 24 --name fire_det
 
-# 模型推测
-python detect.py --source ../Fire_DataSet/images/test/ --weights runs/train/fire_det4/weights/best.pt --conf 0.25 --name fire_det
 
+# 模型预测
+python detect.py --source ../Fire_DataSet/images/test/ --weights runs/train/fire_det4/weights/best.pt --conf 0.25 --name fire_det
 
